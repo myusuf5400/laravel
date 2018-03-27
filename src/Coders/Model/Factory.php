@@ -394,7 +394,7 @@ class Factory
             }
         }
 
-        $body = trim($body, "\n");
+        // $body = trim($body, "\n");
         // Separate constants from fields only if there are constants.
         if (! empty($body)) {
             $body .= "\n";
@@ -407,7 +407,7 @@ class Factory
 
         // When table is not plural, append the table name
         if ($model->needsTableName()) {
-            $body .= $this->class->field('table', $model->getTableForQuery());
+            $body .= $this->class->field('table', $model->getTableForQuery(), ['after' => "\n"]);
         }
 
         if ($model->hasCustomPrimaryKey()) {
