@@ -394,7 +394,7 @@ class Factory
             }
         }
 
-        $body = trim($body, "\n");
+        // $body = trim($body, "\n");
         // Separate constants from fields only if there are constants.
         if (! empty($body)) {
             $body .= "\n";
