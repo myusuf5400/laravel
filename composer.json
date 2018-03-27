@@ -1,5 +1,5 @@
 {
-    "name": "reliese/laravel",
+    "name": "myusuf5400/laravel",
     "description": "Reliese Components for Laravel Framework code generation.",
     "keywords": ["reliese", "laravel"],
     "homepage": "http://cristianllanos.com",
@@ -40,12 +40,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Reliese\\Coders\\CodersServiceProvider"
-            ]
-        }
     }
 }

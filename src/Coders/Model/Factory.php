@@ -506,7 +506,7 @@ class Factory
     }
 
     /**
-     * @param \Myusuf5400\Coders\Model\Model $model
+     * @param \Reliese\Coders\Model\Model $model
      *
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException
      */
